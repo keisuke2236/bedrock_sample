@@ -24,8 +24,8 @@
 1. リポジトリをクローンします：
 
 ```
-git clone [your-repo-url]
-cd [your-repo-name]
+git clone git@github.com:keisuke2236/bedrock_sample.git
+cd bedrock_sample
 ```
 
 2. 依存関係をインストールします：

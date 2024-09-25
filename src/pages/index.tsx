@@ -1,10 +1,5 @@
 import { useState, useRef } from 'react';
-
-const models = [
-  { id: "anthropic.claude-3-haiku-20240307-v1:0", name: "Claude 3 Haiku" },
-  { id: "anthropic.claude-3-sonnet-20240229-v1:0", name: "Claude 3 Sonnet" },
-  { id: "anthropic.claude-v2:1", name: "Claude v2" },
-];
+import { models } from './util/models';
 
 export default function Home() {
   const [message, setMessage] = useState('');
